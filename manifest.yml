@@ -1,10 +1,8 @@
 applications:
-- path: .
-  memory: 256M
-  instances: 1
-  domain: fujiwarajpibmcom-myspace01.apic.mybluemix.net
+- host: akiraspsstest2
   name: akiraspsstest2
-  host: akiraspsstest2
-  disk_quota: 1024M
-  services:
-  - Predictive Analytics-3y
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 256M
