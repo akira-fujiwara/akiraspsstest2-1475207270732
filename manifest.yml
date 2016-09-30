@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: fujiwarajpibmcom-myspace01.apic.mybluemix.net
+  name: akiraspsstest2
+  host: akiraspsstest2
+  disk_quota: 1024M
+  services:
+  - Predictive Analytics-3y
